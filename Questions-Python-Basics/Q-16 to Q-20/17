@@ -1,0 +1,6 @@
+# You are given a list of subjects for students. assume one classroomis required for 1 subject the how many classroom are neede by all students.
+#"Pyhton","Java","C++","Python","Javascript","Java","Python","Java","C++"
+
+subjects={"Pyhton","Java","C++","Python","Javascript","Java","Python","Java","C++"}
+print(subjects)
+print("Classroom neeede by all students: ",len(subjects))
