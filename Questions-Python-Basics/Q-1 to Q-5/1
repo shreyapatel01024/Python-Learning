@@ -1,0 +1,5 @@
+#Write a program to input 2 number and print thier sum.
+
+x=int(input("Enter The first Number: "))
+y=int(input("Enter The Second Number: "))
+print("Sum of",x,"and",y,"is",x+y)
