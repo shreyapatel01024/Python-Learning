@@ -1,0 +1,4 @@
+# write a Program to find the Occurance of character that user enters from users entered string.
+
+str=input("Enter the String: ")
+print(str.count(input("Enter the string to get its occurance: ")))
