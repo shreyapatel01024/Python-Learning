@@ -1,0 +1,5 @@
+#Write a program to input 2 Floating number and print thier average.
+
+x=float(input("Enter point 1: "))
+y=float(input("Enter point 2: "))
+print("Average of",x,"and",y,"is: ",(x+y)/2)
