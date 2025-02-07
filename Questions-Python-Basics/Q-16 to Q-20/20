@@ -1,0 +1,8 @@
+# write a Program to create a mathemetical Table of any Number.
+
+a=int(input("Enter number whose table ants to get: "))
+b=int(input("Enter the ending elemen tof table: "))
+i=1
+while i<=b:
+    print(a,"*",i,"=",a*i)
+    i+=1
