@@ -1,0 +1,5 @@
+# write a Program to store this tuple values[ "C","D","A","A","B","B","A"] in the list and sort them from "A" to "D".
+
+x=["C","D","A","A","B","B","A"]
+x.sort()
+print(x)
