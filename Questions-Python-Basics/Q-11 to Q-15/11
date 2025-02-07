@@ -1,0 +1,7 @@
+# write a Program to iprint a Number from 5 to 1(Reverse).
+
+x=5
+y=int(input("Enter the Number: "))
+while x>=y:
+          print(x)
+          x-=1
