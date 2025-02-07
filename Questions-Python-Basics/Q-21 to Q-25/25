@@ -1,0 +1,8 @@
+# write a Program of funcation to print the length of a list.
+
+cities=["Delhi","Mumbai","Ahemdabad","Surat","Kolkata","Indore"]
+x=[1,2,3]
+def get_len(list):
+    print(len(list))
+get_len(cities)
+get_len(x)
