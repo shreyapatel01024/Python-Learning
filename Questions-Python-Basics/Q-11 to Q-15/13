@@ -1,0 +1,9 @@
+# write a Program to check wether the list contains a Pallindrone of element.
+
+x=[1,2,1]
+copy_x=x.copy()
+copy_x.reverse()
+if(copy_x==x):
+    print("Elemets of the list are in Pallindrone form.")
+else:
+    print("Elemets of the list are not in Pallindrone form.")
