@@ -1,0 +1,9 @@
+# Figure out a way to store 9 and 9.0 separate value in the set.
+
+#1.
+value={"9.0",9}
+print(value)
+
+#2.
+values={("float",9.0),("int",9)}
+print(values)
