@@ -1,0 +1,8 @@
+# write a Program to print the element of the following list using loop.
+# [1,4,9,16,25,36,49,64,81,100]
+
+list1=[1,4,9,16,25,36,49,64,81,100]
+x=0
+while x<len(list1):
+    print(list1[x])
+    x+=1
