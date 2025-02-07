@@ -1,0 +1,4 @@
+Enter a program to Input side of a Square and print its area
+
+s=int(input("Enter the length of one ide of a square: "))
+print("Area of the Square having side length",s,"is: ",s*s)
