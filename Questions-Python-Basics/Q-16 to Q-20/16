@@ -1,0 +1,6 @@
+# write a Program to store the following word meanings in a python dictionary.
+#table:"a piece of furniture","list of factsand figures"
+#cat:"a samll animal"
+
+dictionary={"table":["a piece of furniture","list of factsand figures"],"cat":"a samll animal"}
+print(dictionary)
