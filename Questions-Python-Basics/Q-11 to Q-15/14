@@ -1,0 +1,5 @@
+# write a Program to count the Number of students with the "A" grade in the folloing tuple.
+#  ["C","D","A","A","B","B","A"].
+
+x=["C","D","A","A","B","B","A"]
+print(x.count("A"))
