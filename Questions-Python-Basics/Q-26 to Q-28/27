@@ -1,0 +1,8 @@
+# write a Program of funcation to find the factorial of n numbers.
+
+def find_fact(n):
+    fact=1
+    for i in range(1,n+1):
+        fact*=i
+    print(fact)
+find_fact(int(input("Enter the Number: ")))
