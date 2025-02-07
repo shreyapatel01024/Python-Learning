@@ -1,0 +1,10 @@
+# write a Program to Enter marks of 3 subjects from the user and store them in a dictionary.start with an empty dictionary and add on eby one .use subjcet name as key and marks as value.
+
+marks={}
+m1=int(input("Enter the Marks of Physics: "))
+marks.update({"Physics":m1})
+m2=int(input("Enter the Marks of Chemistry: "))
+marks.update({"Chemistry":m2})
+m3=int(input("Enter the Marks of Maths: "))
+marks.update({"Maths":m3})
+print(marks)
