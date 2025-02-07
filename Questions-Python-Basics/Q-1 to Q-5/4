@@ -1,0 +1,5 @@
+# write a Program to input two int number, print True if 1st is grater than or equal to 2nd, if not print false.
+
+f= int(input("Enter First Number: "))
+s= int(input("Enter Second Number: "))
+print(f>=s) 
