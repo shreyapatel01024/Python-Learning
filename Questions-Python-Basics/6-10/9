@@ -1,0 +1,17 @@
+# write a Program to check if the number is multiple of user input number or not.
+
+#1 way.
+num=int(input("Enter the Number to check: "))
+a=int(input("Enter Multipler Number: "))
+if(num%a==0):
+    print(num," is multiple of ",a)
+else:
+    print(num," is multiple of ",a)
+
+#2 way.
+    
+num1=input("Enter the Number to check: ")
+if(num%7==0):
+    print(num1," is multiple of 7.")
+else:
+    print(num1," is mulltiple of 7.")
