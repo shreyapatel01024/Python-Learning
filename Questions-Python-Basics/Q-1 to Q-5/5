@@ -1,0 +1,4 @@
+# write a Program to input user's First name and print its length.
+
+name=input("Enter your First Name: ")
+print("Length of your Name is: ",len(name))
