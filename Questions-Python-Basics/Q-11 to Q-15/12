@@ -1,0 +1,28 @@
+
+# write a Program to ask the user to enter thier favorite food and store them in list.
+#1.
+m=[]
+m1=input("Enter 1st favorite food item :")
+m2=input("Enter 2nd favorite food item :")
+m3=input("Enter 3rd favorite food item :")
+m.append(m1)
+m.append(m2)
+m.append(m3)
+print(m)
+
+#2.
+m=[]
+m1=input("Enter 1st favorite food item :")
+m.append(m1)
+m1=input("Enter 2nd favorite food item :")
+m.append(m1)
+m1=input("Enter 3rd favorite food item :")
+m.append(m1)
+print(m)
+
+#3.
+m=[]
+m.append(input("Enter 1st favorite food item :"))
+m.append(input("Enter 1st favorite food item :"))
+m.append(input("Enter 1st favorite food item :"))
+print(m)
