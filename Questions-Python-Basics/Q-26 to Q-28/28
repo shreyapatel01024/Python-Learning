@@ -1,0 +1,5 @@
+# write a Program of funcation to convert USD(USDoller) to INR(IndianRupees).
+def convert(usd):
+    inr=usd*83
+    print(usd," USD = ",inr," INR.")
+convert(int(input("Enter the USDoller amount: ")))
