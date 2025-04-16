@@ -1,0 +1,6 @@
+# constructor
+class student:
+    def __init__(self,name):
+        self.n=name
+s1=student("xyz")
+print(s1.n)
