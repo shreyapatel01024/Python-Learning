@@ -1,0 +1,12 @@
+# methodsa are function that belongs to object.
+
+class student:                        # class created
+    def __init__(self,name):          # constructor created
+        self.n=name                   #object attribute
+    def hello(self):                  # method created, self must in method.
+        print("hello",self.n)
+s1=student("xyz")
+s1.hello()
+
+# output:
+# hello xyz
