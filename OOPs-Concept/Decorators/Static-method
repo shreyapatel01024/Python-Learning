@@ -1,0 +1,18 @@
+# Static method that do not use self parameter.
+
+class student:
+    def __init__(self, marks):
+        self.m = marks
+
+    @staticmethod
+    def get_max_value(x, y):
+        return max(x, y)
+
+# Create an instance of MyClass
+s1 = student(10)
+
+print(student.get_max_value(20, 30))  
+
+print(s1.get_max_value(20, 30)) 
+
+# output: 30 30
