@@ -1,0 +1,15 @@
+class student:
+    collage_name="abc"                    # class attribute
+    def __init__(self,name,marks):
+        self.n=name                       #object attribute
+        self.m=marks                      #object attribute
+  
+s1=student("xyz",24)
+print(s1.n,s1.m,s1.collage_name)
+  
+s2=student("mno",6)
+print(s2.n,s2.m,s2.collage_name)
+
+# output:
+  xyz 24 abc
+  mno 6 abc
