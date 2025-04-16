@@ -1,0 +1,15 @@
+# [Q-1] Create student class that takes name and marks of 3 subjects as argument in constructor then create a method to print the avrage.
+
+class student:
+    def __init__(self,name,marks):
+        self.n=name  #object attribute
+        self.m=marks  #object attribute
+    def avg(self):
+        total=0
+        for val in self.m:
+            total+=val
+        print("person with name ",self.n," having avrage marks= ",total/3)
+s1=student("xyz",[99,98,97])
+s1.avg()
+
+# output: person with name  xyz  having avrage marks=  98.0
