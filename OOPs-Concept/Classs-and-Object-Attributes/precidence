@@ -1,0 +1,13 @@
+class student:
+    name="abc" # class attribute
+    marks=6    # class attribute
+    def __init__(self,name,marks):
+        self.n=name  #object attribute
+        self.m=marks #object attribute
+s1=student("xyz",24)
+print(s1.n,s1.m)
+
+# output:
+xyz 24
+    # it is not "abc 6" as precidence betwen class attribute and object attriute is
+    object attribute > class attribute
