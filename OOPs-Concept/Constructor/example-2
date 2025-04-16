@@ -1,0 +1,10 @@
+# multiple value 
+class student:
+    def __init__(self,name,age):
+        self.n=name
+        self.a=age
+s1=student("xyz",24)
+print(s1.n,s1.a)
+
+# output:
+xyz 24
