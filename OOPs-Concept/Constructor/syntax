@@ -1,0 +1,11 @@
+# constructor iniialized by __init__(self) function ,self is its parameter which is refrence to the current instance of the class and is used to access variable that belongs 
+# to class.
+
+class student:
+    def __init__(self):
+        pass
+
+$ slef can be any variable but prefered self eg:
+class student:
+    def __init__(x):
+        pass
