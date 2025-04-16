@@ -1,0 +1,12 @@
+# create class
+
+class student:
+     name="xyz"
+s1=student()
+print(s1.name)
+s2=student()
+print(s2.name)
+
+# output: xyz
+          xyz
+ # both having same output "xyz" as name is already defined in class.
