@@ -1,0 +1,21 @@
+# MultiLevel Inheritance : class-A -> class-b -> class-c
+
+class car:
+    @staticmethod
+    def start():
+        print("car started!!!")
+    @staticmethod
+    def stop():
+        print("car stoped!!!")
+class carname(car):    #properties of car inherited in carname
+    def __init__(self,name):        
+        self.name=name
+class fortunercar(carname):
+    def __init__(self, type):
+        self.type=type
+car1=fortunercar("Petrol")
+car1.start()
+
+
+
+ # Output: car started!!!
